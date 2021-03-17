@@ -1,0 +1,16 @@
+.result-item{
+  margin-bottom: 4px;
+  list-style: none;
+  span{
+    margin-right: 5px;
+  }
+}
+.result-list{
+  height: 100%;
+
+  ul{
+    height: 90%;
+    display: block;
+    overflow-y: auto;
+  }
+}

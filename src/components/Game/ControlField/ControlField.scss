@@ -1,0 +1,30 @@
+.wrapper-control {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.control-title{
+  display: flex;
+  align-items: center;
+
+  p{
+    margin-right: 10px;
+  }
+}
+.control-select{
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  background: #9c9c9c;
+
+}
+
+.control-button{
+  padding: 5px 20px;
+  border:2px solid grey;
+  box-shadow: gray;
+  border-radius: 5px;
+  background: #9c9c9c;
+  cursor: pointer;
+
+}

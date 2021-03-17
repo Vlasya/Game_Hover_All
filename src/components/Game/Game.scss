@@ -1,0 +1,41 @@
+.game-wrapper{
+  margin: 5px auto;
+  height: 50vw;
+  width: 90vw;
+background: #bfbebe;
+}
+.grid-container {
+  height: 100%;
+  border: 2px solid gray;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 2px 2px;
+  grid-template-areas:
+    "control-field control-field control-field control-field result-field result-field"
+    "game-field game-field game-field game-field result-field result-field"
+    "game-field game-field game-field game-field result-field result-field"
+    "game-field game-field game-field game-field result-field result-field"
+    "game-field game-field game-field game-field result-field result-field"
+    "game-field game-field game-field game-field result-field result-field";
+}
+.control-field { grid-area: control-field; }
+.result-field { grid-area: result-field; }
+.game-field { grid-area: game-field; }
+
+
+
+
+
+  .control-field{
+
+  }
+  .game-field{
+
+  }
+  .result-field{
+    height: 100%;
+
+  }
+
