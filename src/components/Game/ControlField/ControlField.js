@@ -29,6 +29,7 @@ export const ControlField = ({gamePresets, setGameStatus, gameStatus}) => {
         const checkedValue = gamePresets.filter((item) => item.name === e.target.value)
         setSelectedValue(checkedValue[0].field);
         dispatch(change_game_presets(checkedValue[0].field))
+        setGameStatus(false)
     }
 
     function handlerClick() {
